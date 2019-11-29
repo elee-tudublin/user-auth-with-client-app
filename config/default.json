@@ -1,0 +1,22 @@
+{
+    "connection":{
+        "user" : "User",
+        "password": "Password",
+        "server" : "db.database.windows.net",
+        "database" : "db",
+        "parseJSON": true,
+        "options":
+        {
+            "encrypt" : true
+        },
+        "pool":
+        {
+        "min": 2,
+        "max": 4,
+        "idleTimeoutMillis": 30000
+        }
+    },
+    "keys": {
+            "secret": "Something no one will guess in a trillion years!!!!"
+    }
+}
